@@ -38,38 +38,4 @@ void ThirdNumber()
 
 }
     
-
-
-
 ThirdNumber();
-
-/*
-if (a >= 1000)
-{
-    int count;
-    while (a >= count) // я нихрена не знаю что писать
-    {
-    count = a / 100;  
-    Console.WriteLine("The third number is: " + c);
-    }
-}
-else
-{
-Console.WriteLine("There is no third number");
-}
-}
-
-
-ThirdNumber();
-
-
-
-/*
-Console.Write("Input a number:  ");
-int a = Convert.ToInt32(Console.ReadLine());
-
-
-int b = a % 100;
-
-Console.WriteLine(b);
-*/

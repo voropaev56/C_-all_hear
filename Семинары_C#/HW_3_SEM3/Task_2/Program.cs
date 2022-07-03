@@ -6,7 +6,6 @@
 */
 
 
-// Павел я не знаю почему ответ не выдается что я не так сделал не пойму...
 
 Console.Write("Input a number:  ");
 int num33 = Convert.ToInt32(Console.ReadLine());
@@ -16,7 +15,8 @@ void Cube(int n)
     if (n > 0)
     {
         int current = 1;
-        while (current < n);
+        
+        while (current < n)
         {
         int cube = current * current * current;
         current++;
