@@ -79,8 +79,6 @@ int[,] FindEvenChange(int[,] array)
     return array;
 }
 
-
-
 Console.WriteLine("Input number of rows: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input number of columns: ");
@@ -93,7 +91,6 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[,] myArray123 = CreateRandom2DArray(m,n,min,max);
 Show2Array(myArray123);
 Console.WriteLine();
-
 myArray123 = FindEvenChange(myArray123);
 Show2Array(myArray123);
 

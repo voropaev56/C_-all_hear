@@ -32,15 +32,10 @@ void  ShowArray(int [] array)
     Console.WriteLine();
 }
 
-
-
 Console.Write("Input size of array: ");
 int size = Convert.ToInt32(Console.ReadLine());
-
 int[] array1 = CreateRandomArray(size);
 ShowArray(array1);
-
-
-
+Console.WriteLine("The number of even numbers in the array is: " + CountEvenNumbers(array1));
 
 
